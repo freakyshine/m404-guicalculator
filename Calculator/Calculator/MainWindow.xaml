@@ -23,5 +23,25 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        <TextBox x:Name="display" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="5" FontSize="24" FontWeight="Bold" FontStyle="Normal" TextAlignment="Right" Foreground="White" Background="#10A0FF"/>
+
+        <Button x:Name="cmd_1" Grid.Column="0" Grid.Row="4" Content="1" FontSize="24" FontWeight="Bold" Click="cmd1_Click"/>
+        <Button x:Name="cmd_2" Grid.Column="1" Grid.Row="4" Content="2" FontSize="24" FontWeight="Bold" Click="cmd2_Click"/>
+        <Button x:Name="cmd_3" Grid.Column="2" Grid.Row="4" Content="3" FontSize="24" FontWeight="Bold" Click="cmd3_Click"/>
+        <Button x:Name="cmd_4" Grid.Column="0" Grid.Row="3" Content="4" FontSize="24" FontWeight="Bold" Click="cmd4_Click"/>
+        <Button x:Name="cmd_5" Grid.Column="1" Grid.Row="3" Content="5" FontSize="24" FontWeight="Bold" Click="cmd5_Click"/>
+        <Button x:Name="cmd_6" Grid.Column="2" Grid.Row="3" Content="6" FontSize="24" FontWeight="Bold" Click="cmd6_Click"/>
+        <Button x:Name="cmd_7" Grid.Column="0" Grid.Row="2" Content="7" FontSize="24" FontWeight="Bold" Click="cmd7_Click"/>
+        <Button x:Name="cmd_8" Grid.Column="1" Grid.Row="2" Content="8" FontSize="24" FontWeight="Bold" Click="cmd8_Click"/>
+        <Button x:Name="cmd_9" Grid.Column="2" Grid.Row="2" Content="9" FontSize="24" FontWeight="Bold" Click="cmd9_Click"/>
+        <Button x:Name="cmd_0" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" Content="0" FontSize="24" FontWeight="Bold"  Click="cmd0_Click"/>
+
+        <Button x:Name="cmdClr" Grid.Column="2" Grid.Row="5" Content="CLR" FontSize="24" FontWeight="Bold" Click="cmdClr_Click"/>
+
+        <Button x:Name="cmdDiv" Grid.Column="5" Grid.Row="2" Content="/" FontSize="24" FontWeight="Bold" Click="cmdDiv_Click"/>
+        <Button x:Name="cmdMul" Grid.Column="4" Grid.Row="3" Content="*" FontSize="24" FontWeight="Bold" Click="cmdMul_Click"/>
+        <Button x:Name="cmdSub" Grid.Column="4" Grid.Row="4" Content="‐" FontSize="24" FontWeight="Bold" Click="cmdSub_Click"/>
+        <Button x:Name="cmdAdd" Grid.Column="4" Grid.Row="5" Content="+" FontSize="24" FontWeight="Bold" Click="cmdAdd_Click"/>
+        <Button x:Name="cmdRes" Grid.Column="4" Grid.Row="6" Content="=" FontSize="24" FontWeight="Bold" Click="cmdRes_Click"/>
     </Grid>
 </Window>
